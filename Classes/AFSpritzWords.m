@@ -40,7 +40,9 @@
         return maximum;
     }
     
-    return minimum + ((maximum - minimum) / (maxTreshold - minTreshold));
+    double m = (maximum - minimum) / (maxTreshold - minTreshold);
+    double b = minimum - (m * minTreshold);
+    return (m * length) + b;
 }
 
 -(NSUInteger)getReaderMarkerPosition {

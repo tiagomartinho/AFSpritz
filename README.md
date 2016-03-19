@@ -124,7 +124,7 @@ You can customize many properties from AFSpritzLabel, such as:
 
 - [x] Restart the reading. (Thanks [Ayberk](https://github.com/ayberkt)!)
 
-- [ ] Different speed based on the word length.
+- [X] Different speed based on the word length.
 
 ##Author
 
